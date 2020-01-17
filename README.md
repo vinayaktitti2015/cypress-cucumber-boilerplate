@@ -15,7 +15,11 @@
 # cmmd line Execution:
 1. npm run test:mochawesomereport
 2. npm run test:allurereport
-3. npm run test:visual-base
+3. npm run generatereport
+
+# Visual Test
+1. npm run test:visual-base
+2. npm run test:visual-actual
 
 #Reports:
 1. Reports will be generated in 'mochawesomereport-report' folder - command line execution only
