@@ -1,0 +1,11 @@
+[ {
+  "uid" : "fd3fa36d6bfe3641",
+  "name" : "check valid login functional test",
+  "time" : {
+    "start" : 1579252446420,
+    "stop" : 1579252458816,
+    "duration" : 12396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "login",
+    "children" : [ {
+      "name" : "check valid login functional test",
+      "uid" : "fd3fa36d6bfe3641",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579252446420,
+        "stop" : 1579252458816,
+        "duration" : 12396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e294307b5e869e9b2181239eb0874d42"
+  } ]
+}

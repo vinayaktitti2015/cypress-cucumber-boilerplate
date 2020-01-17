@@ -1,0 +1,44 @@
+{
+  "uid" : "830f42da1ae60dff",
+  "name" : "check valid login functional test",
+  "fullName" : "login.check valid login functional test",
+  "historyId" : "9e79c02d9b46a52dad943722dc018a51",
+  "time" : {
+    "start" : 1579251613548,
+    "stop" : 1579251626285,
+    "duration" : 12737
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "check valid login functional test"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "830f42da1ae60dff.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "login",
+    "children" : [ {
+      "name" : "check valid login functional test",
+      "uid" : "fd3fa36d6bfe3641",
+      "parentUid" : "75d811c673dc5e97a5ea7e2a442ebd1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579252446420,
+        "stop" : 1579252458816,
+        "duration" : 12396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "75d811c673dc5e97a5ea7e2a442ebd1a"
+  } ]
+}
