@@ -1,3 +1,5 @@
+# Cypress with Cucumber BDD
+
 # Dependencies:
 1. npm install
 2. npm link
@@ -27,7 +29,9 @@
   
    ex: npm run test:mochawesomereport
 
-2. Allure reports: npm run generatereport
+2. Allure reports: 
+    a. npm run test:allurereport
+    b. npm run generatereport
 
 
 
