@@ -20,7 +20,7 @@
 # Visual Test
 1. npm run test:visual-base
 2. npm run test:visual-actual
-Snapshots will be generated in 'snapshots' folder
+3. Snapshots will be generated in 'snapshots' folder
 
 # Reports:
 1. Reports will be generated in 'mochawesomereport-report' folder - command line execution only
