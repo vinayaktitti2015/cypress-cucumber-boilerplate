@@ -3,7 +3,7 @@
     "cypress/support/step_definitions/*.js",
    
   ],
-  "cucumberautocomplete.syncfeatures": "cypress/integration/**/*feature,Smoke-test-Suite/cypress/integration/cypress-functional-test/features/*feature,PL-e2e-test/cypress/integration/features/*feature,Broadband-e2e-test/cypress/integration/features/*feature,Common-test/cypress/integration/features/*feature",
+  "cucumberautocomplete.syncfeatures": "cypress/integration/**/*feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
 
   // Controls if quick suggestions should show up while typing
