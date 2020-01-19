@@ -9,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd3fa36d6bfe3641",
+      "uid" : "ade21236f92bf264",
       "status" : "passed",
       "time" : {
         "start" : 1579252446420,
         "stop" : 1579252458816,
         "duration" : 12396
+      }
+    } ]
+  },
+  "8b41063e8298dbd80e862c8a4e03568c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac5ed6e9c4bd0b6",
+      "status" : "broken",
+      "statusDetails" : "cy.click() can only be called on a single element. Your subject contained 2 elements. Pass { multiple: true } if you want to serially click each element.",
+      "time" : {
+        "start" : 1579440705985,
+        "stop" : 1579440714797,
+        "duration" : 8812
       }
     } ]
   }

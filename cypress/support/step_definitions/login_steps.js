@@ -1,13 +1,11 @@
-import { loginPage } from '../../pageobjects/loginobjects'
+import { loginPage } from '../../pageobjects/Login_PageObjects'
 
 Given('I open IMDB homepage', () => {
     cy.visit('/');
 });
-
 When('I SignIn as user', () => {
     loginPage.signIn();
 });
-
-then('I capture snapshot and compare {string}', (string) => {
-    cy.matchImageSnapshot(string);
-});
+then('The account name should be displayed', ()=>{
+    loginPage.verifyAccountNameDisplayed()
+})

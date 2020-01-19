@@ -1,2 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
 "passed","Fri Jan 17 17:14:06 MYT 2020","Fri Jan 17 17:14:18 MYT 2020","12396","","login","","login","check valid login functional test","check valid login functional test",""
+"broken","Sun Jan 19 21:31:45 MYT 2020","Sun Jan 19 21:31:54 MYT 2020","8812","","Login Test","","Login Test","check valid login test","check valid login test",""
