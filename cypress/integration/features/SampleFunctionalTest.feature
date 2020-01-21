@@ -6,7 +6,7 @@ Feature: Sample Login Test
       And I press button "Sign in with IMDb"
       Then I should see "Sign-In" text displayed
       When I SignIn as user
-      Then I should see title "Ratings, Reviews, and Where to Watch the Best Movies & TV Shows"
+      Then I should see title "Movies & TV Shows"
       And The account name should be displayed
 
 
