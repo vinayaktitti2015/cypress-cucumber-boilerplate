@@ -31,6 +31,4 @@ test:
     test:
       commands:
         - 'npx cypress run -s cypress/integration/features/SampleFunctionalTest.feature -r mochawesome --reporter-options "reportDir=./mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
-    postTest:
-      commands:
-        - npx mochawesome-merge@4 ./mochawesome-report/*.json > ./mochawesome.json
+   
