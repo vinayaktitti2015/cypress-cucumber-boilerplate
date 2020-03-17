@@ -1,4 +1,4 @@
-# Cypress with Cucumber BDD
+# Cypress with Cucumber BDD and Amplify console ß CI/CD Pipeline
 
 # Dependencies:
 1. npm install
