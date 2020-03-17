@@ -20,7 +20,7 @@ import './commands'
 // require('./commands')
 require('cypress-xpath')
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-    console.log('inside Cypress.on')
-    return false;
+Cypress.on('uncaught:exception', () => {
+
+  return false
 })
