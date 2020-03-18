@@ -30,5 +30,5 @@ test:
         - "npm start & npx wait-on http://127.0.0.1:8080"
     test:
       commands:
-        - 'npx cypress run -s cypress/integration/features/SampleFunctionalTest.feature -r mochawesome --reporter-options "reportDir=./mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
+        - 'npx cypress run --record -s cypress/integration/features/SampleFunctionalTest.feature -r mochawesome --reporter-options "reportDir=./mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
    
