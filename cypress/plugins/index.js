@@ -17,17 +17,17 @@ const {
 } = require('cypress-image-snapshot/plugin')
 
 
-// function getCongByFile (file) {
-//   const pathToCongFile = path.resolve('cypress/', 'config', `${file}.json`)
+function getCongByFile (file) {
+  const pathToCongFile = path.resolve('cypress/', 'config', `${file}.json`)
 
-//   return fs.readJson(pathToCongFile)
-// }
+  return fs.readJson(pathToCongFile)
+}
 
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
   getCompareSnapshotsPlugin(on)
   addMatchImageSnapshotPlugin(on, config)
 
-  //const file = config.env.configFile;
-  //return getCongByFile(file);
+  const file = config.env.configFile;
+  return getCongByFile(file);
 }
