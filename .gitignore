@@ -15,4 +15,6 @@ npm-debug.log
 allure-report/*
 allure-results/
 mochawesome-report/
+cypress/videos
+cypress/screenshots
 

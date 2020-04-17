@@ -24,7 +24,6 @@ export const loginPage = {
       this.enterEmail(data.validemail)
       this.enterPassword(data.password)
       this.clickSubmit()
-      cy.wait(2000)
     })
   },
   verifyAccountNameDisplayed () {
