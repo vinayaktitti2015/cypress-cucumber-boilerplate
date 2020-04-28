@@ -1,4 +1,4 @@
-Feature: Sample Login Test
+Feature: Sample Test
 
    Scenario: check valid login test
       Given I open IMDB homepage
@@ -6,8 +6,15 @@ Feature: Sample Login Test
       And I press button "Sign in with IMDb"
       Then I should see "Sign-In" text displayed
       When I SignIn as user
-      Then I should see title "Movies & TV Shows"
-      And The account name should be displayed
+      Then The account name should be displayed
+
+   Scenario: select random dropdown value
+      Given I open IMDB homepage
+      When I select random sortBy value
+
+   Scenario: click random link
+      Given I open IMDB homepage
+      When I click random link
 
 
 

@@ -33,6 +33,9 @@
     a. npm run test:allurereport
     b. npm run generatereport
 
+# Reference
+- [Detailed Article](https://medium.com/@vinayaktitti/getting-started-with-cypress-and-cucumber-api-2d7057e34047)
+
 
 
 
