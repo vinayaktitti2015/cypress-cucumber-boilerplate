@@ -4,7 +4,8 @@ const inputEmail = '#ap_email'
 const inputPassword = '#ap_password'
 const buttonSubmit = '//input[@id=\'signInSubmit\']'
 const label_AccountName = '//span[contains(@class,\'imdb-header__account-toggle--logged-in\')]'
-
+const dropdown_sortyBy = '#lister-sort-by-options > option';
+const link_title = '.lister-list a:nth-child(1)';
 
 export const loginPage = {
   enterEmail(args) {
@@ -35,21 +36,10 @@ export const loginPage = {
         .should('contain', data.username)
     })
   },
-  selectRandomValueByText() {
-    let array = [];
-    cy.get('#lister-sort-by-options > option').each(($el) => {
-      array.push($el.text().trim());
-    })
-    function random() {
-      return array[Math.floor(Math.random() * array.length)];
-    }
-    cy.get('#lister-sort-by-options')
-      .select(array[random]);
-  },
   selectRandomSortBy() {
-    selectRandomDropdownValue('#lister-sort-by-options > option');
+    selectRandomDropdownValue(dropdown_sortyBy);
   },
   clickRandomTitle() {
-    clickRandomElementByIndex('.lister-list a:nth-child(1)')
+    clickRandomElementByIndex(link_title)
   }
 }
