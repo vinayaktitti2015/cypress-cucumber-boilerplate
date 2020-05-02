@@ -39,7 +39,7 @@
 
 # Allure Reports:
 
-![Alt text](cypress/screenshots/allure.png?raw=true "Allure")
+![Screenshot](cypress/screenshots/allure.png?raw=true "Allure")
 
 # Cucumber HTML Reports:
 
