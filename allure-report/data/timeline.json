@@ -2,8 +2,47 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
+    "name" : "check valid login test",
+    "uid" : "db0a2b27b257fe6c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588419121954,
+      "stop" : 1588419134526,
+      "duration" : 12572
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "select random dropdown value",
+    "uid" : "3534066d6e26dd67",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588419134555,
+      "stop" : 1588419140625,
+      "duration" : 6070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click random link",
+    "uid" : "8f6a783d1c6b336d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588419140632,
+      "stop" : 1588419149628,
+      "duration" : 8996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "check valid login functional test",
-    "uid" : "ade21236f92bf264",
+    "uid" : "bb663efbb9fbcaa5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -15,40 +54,14 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "check valid login test",
-    "uid" : "fe9e921415a409c6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1579440515937,
-      "stop" : 1579440582886,
-      "duration" : 66949
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "check valid login functional test",
-    "uid" : "7a8d993afff0dc4b",
+    "uid" : "dcb3e2d70ab79034",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
       "start" : 1579251613548,
       "stop" : 1579251626285,
       "duration" : 12737
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "check valid login test",
-    "uid" : "ac5ed6e9c4bd0b6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1579440705985,
-      "stop" : 1579440714797,
-      "duration" : 8812
     },
     "flaky" : false,
     "newFailed" : false,

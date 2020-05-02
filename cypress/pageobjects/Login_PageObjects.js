@@ -4,7 +4,8 @@ const inputEmail = '#ap_email'
 const inputPassword = '#ap_password'
 const buttonSubmit = '//input[@id=\'signInSubmit\']'
 const label_AccountName = '//span[contains(@class,\'imdb-header__account-toggle--logged-in\')]'
-const dropdown_sortyBy = '#lister-sort-by-options > option';
+const dropdown_sortyBy_options = '#lister-sort-by-options > option';
+const dropdown_sortyBy = '#lister-sort-by-options';
 const link_title = '.lister-list a:nth-child(1)';
 
 export const loginPage = {
@@ -37,7 +38,7 @@ export const loginPage = {
     })
   },
   selectRandomSortBy() {
-    selectRandomDropdownValue(dropdown_sortyBy);
+    selectRandomDropdownValue(dropdown_sortyBy, dropdown_sortyBy_options);
   },
   clickRandomTitle() {
     clickRandomElementByIndex(link_title)

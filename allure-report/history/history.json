@@ -1,4 +1,23 @@
 {
+  "fcdcf58fa254828ae4d5636122e20376" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db0a2b27b257fe6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588419121954,
+        "stop" : 1588419134526,
+        "duration" : 12572
+      }
+    } ]
+  },
   "9e79c02d9b46a52dad943722dc018a51" : {
     "statistic" : {
       "failed" : 0,
@@ -9,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ade21236f92bf264",
+      "uid" : "bb663efbb9fbcaa5",
       "status" : "passed",
       "time" : {
         "start" : 1579252446420,
@@ -18,23 +37,41 @@
       }
     } ]
   },
-  "8b41063e8298dbd80e862c8a4e03568c" : {
+  "66b0df2dad0bdeffabc3e752ca666023" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac5ed6e9c4bd0b6",
-      "status" : "broken",
-      "statusDetails" : "cy.click() can only be called on a single element. Your subject contained 2 elements. Pass { multiple: true } if you want to serially click each element.",
+      "uid" : "3534066d6e26dd67",
+      "status" : "passed",
       "time" : {
-        "start" : 1579440705985,
-        "stop" : 1579440714797,
-        "duration" : 8812
+        "start" : 1588419134555,
+        "stop" : 1588419140625,
+        "duration" : 6070
+      }
+    } ]
+  },
+  "840e696cb834595e22cbfc0d59fd7b1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f6a783d1c6b336d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588419140632,
+        "stop" : 1588419149628,
+        "duration" : 8996
       }
     } ]
   }

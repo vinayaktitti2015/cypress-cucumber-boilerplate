@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sample Test",
+    "line": 1,
+    "id": "sample-test",
+    "tags": [],
+    "uri": "SampleFunctionalTest.feature",
+    "elements": [
+      {
+        "id": "sample-test;check-valid-login-test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "check valid login test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 4822000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on \"Sign In\"",
+            "result": {
+              "status": "passed",
+              "duration": 1455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I press button \"Sign in with IMDb\"",
+            "result": {
+              "status": "passed",
+              "duration": 1888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Sign-In\" text displayed",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 4805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The account name should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sample-test;select-random-dropdown-value",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "select random dropdown value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select random sortBy value",
+            "result": {
+              "status": "passed",
+              "duration": 680000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sample-test;click-random-link",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "click random link",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click random link",
+            "result": {
+              "status": "passed",
+              "duration": 5826000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

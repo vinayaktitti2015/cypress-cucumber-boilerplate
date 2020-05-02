@@ -37,7 +37,12 @@
 - [Detailed Article](https://medium.com/@vinayaktitti/getting-started-with-cypress-and-cucumber-api-2d7057e34047)
 
 
+# Allure Reports:
 
+![Alt text](./screenshots/allure.png?raw=true "Optional Title")
 
+# Cucumber HTML Reports:
 
+![Alt text](./screenshots/html1.png?raw=true "Optional Title")
+![Alt text](./screenshots/html2.png?raw=true "Optional Title")
 
