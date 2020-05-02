@@ -39,10 +39,10 @@
 
 # Allure Reports:
 
-![Alt text](cypress/screenshots/allure.png?raw=true "Optional Title")
+![Alt text](cypress/screenshots/allure.png?raw=true "Allure")
 
 # Cucumber HTML Reports:
 
-![Alt text](cypress/screenshots/html1.png?raw=true "Optional Title")
-![Alt text](cypress/screenshots/html2.png?raw=true "Optional Title")
+![Screenshot](cypress/screenshots/html1.png?raw=true "Cucumber HTML")
+![Screenshot](cypress/screenshots/html2.png?raw=true "Cucumber HTML")
 
