@@ -9,15 +9,23 @@
 1. go to cypress.json file
 2. set baseurl
 
-# Dashboard execution:
+# Dashboard execution[Test runner]:
 1. Go to project root, 
 2. npx cypress open
 3. click specific feature file [executionwillstart]
 
-# Cmmd line execution:
+# Cmmd line execution using npm scripts:
+# mochawesome report execution
 1. npm run test:mochawesomereport
-2. npm run test:allurereport
-3. npm run generatereport
+
+# allure report execution
+1. npm run test:allurereport
+2. npm run report
+
+# Cucumber-HTML report execution
+1. npm run test:htmlreport
+2. node ./index.js
+
 
 # Visual Test: 
 We can cover visual testing with cypress using `cypress-image-snapshot` node_module
@@ -32,7 +40,8 @@ We can cover visual testing with cypress using `cypress-image-snapshot` node_mod
 
 2. Allure reports: 
     a. npm run test:allurereport
-    b. npm run generatereport
+    b. npm run report
+    
 
 # Reference
 - [Detailed Article](https://medium.com/@vinayaktitti/getting-started-with-cypress-and-cucumber-api-2d7057e34047)
