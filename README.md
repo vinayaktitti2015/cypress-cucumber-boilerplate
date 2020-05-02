@@ -5,7 +5,7 @@
 2. npm link
 3. npm link cypress-cucumber-preprocessor
 
-# set host/ baseurl
+# Set host/ baseurl
 1. go to cypress.json file
 2. set baseurl
 
@@ -14,12 +14,13 @@
 2. npx cypress open
 3. click specific feature file [executionwillstart]
 
-# cmmd line Execution:
+# Cmmd line execution:
 1. npm run test:mochawesomereport
 2. npm run test:allurereport
 3. npm run generatereport
 
-# Visual Test
+# Visual Test: 
+We can cover visual testing with cypress using `cypress-image-snapshot` node_module
 1. npm run test:visual-base
 2. npm run test:visual-actual
 3. Snapshots will be generated in 'snapshots' folder
