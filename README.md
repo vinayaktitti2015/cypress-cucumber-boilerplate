@@ -9,6 +9,9 @@
 1. go to cypress.json file
 2. set baseurl
 
+# Folder structure
+![Screenshot](cypress/screenshots/structure.png?raw=true "FolderStructure")
+
 # Dashboard execution[Test runner]:
 1. Go to project root, 
 2. npx cypress open
