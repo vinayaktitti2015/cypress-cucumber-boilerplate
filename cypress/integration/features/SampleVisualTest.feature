@@ -1,11 +1,10 @@
-Feature: IMDB Visual Test
+Feature: Internet herokuapp Visual Test
 
 
-   Scenario: check IMDB visual test
-      Given I open IMDB homepage
+   Scenario: check Internet herokuapp visual test
+      Given I open Internet herokuapp page
       And I capture snapshot and compare "homepage"
-      When I click on "Sign In"
-      And I press button "Sign in with IMDb"
-      And I capture snapshot and compare "loginpage"
-      When I SignIn as user
-      And I capture snapshot and compare "accountpage"
+      When I click on "Disappearing Elements"
+      And I capture snapshot and compare "Elements page"
+      And I press button "Home"
+      And I capture snapshot and compare "home page"

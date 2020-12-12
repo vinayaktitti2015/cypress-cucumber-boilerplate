@@ -16,4 +16,7 @@ allure-report/*
 allure-results/
 mochawesome-report/
 cypress/videos
+cucumber-json/
+test-results/
+
 

@@ -3,6 +3,9 @@ import { loginPage } from '../../pageobjects/login_pageobjects'
 Given('I open IMDB homepage', () => {
     cy.visit('/');
 });
+Given('I open Internet herokuapp page', () => {
+    cy.visit('https://the-internet.herokuapp.com/');
+});
 When('I SignIn as user', () => {
     loginPage.signIn();
 });
