@@ -15,7 +15,8 @@ const getCompareSnapshotsPlugin = require('cypress-visual-regression/dist/plugin
 const {
   addMatchImageSnapshotPlugin,
 } = require('cypress-image-snapshot/plugin')
-const path = require('path');
+const path = require('path')
+const fs = require('fs')
 
 
 function getCongByFile (file) {
@@ -29,6 +30,7 @@ module.exports = (on, config) => {
   getCompareSnapshotsPlugin(on)
   addMatchImageSnapshotPlugin(on, config)
 
-  //const file = config.env.configFile;
-  //return getCongByFile(file);
+  const file = config.env.configFile
+
+  return getCongByFile(file)
 }
