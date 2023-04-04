@@ -1,4 +1,5 @@
-import { loginPage } from '../../pageobjects/login_pageobjects'
+import { loginPage } from '../../pageobjects/IMDB_PageObjects'
+import { Given, When } from 'cypress-cucumber-preprocessor/steps'
 
 Given('I open IMDB homepage', () => {
     cy.visit('/');
